@@ -1,10 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-const zoomIn = {
-	increase: {
-		opacity: 0
-	}
-};
+
 
 function Projects() {
 	return (
@@ -18,7 +14,7 @@ function Projects() {
 				className="project_container"
 			>
 				<h4>Youtube Clone</h4>
-				<img className="img_thumbnail" src="/Youtube clone.png" />
+				<img className="img_thumbnail" src="Youtube clone.png" />
 				<span>
 					<button
 						className="btn btn-dark"
@@ -54,7 +50,7 @@ function Projects() {
 				className="project_container"
 			>
 				<h4>Simple Mindfulness App</h4>
-				<img className="img_thumbnail" src="/Mindfull.png" />
+				<img className="img_thumbnail" src="Mindfull.png" />
 				<span>
 					<button
 						className="btn btn-dark"
@@ -90,7 +86,7 @@ function Projects() {
 				transition={{ easein: [0.42, 0.0, 1.0, 1.0] }}
 				className="project_container">
 				<h4>Drum Machine</h4>
-				<img className="img_thumbnail" src="/DrumMachine.png" />
+				<img className="img_thumbnail" src="DrumMachine.png" />
 				<span>
 					<button
 						className="btn btn-dark"
@@ -125,7 +121,7 @@ function Projects() {
 				className="project_container"
 			>
 				<h4>Markdown Previewer </h4>
-				<img className="img_thumbnail" src="/Markdown.png" />
+				<img className="img_thumbnail" src="Markdown.png" />
 				<span>
 					<button
 						className="btn btn-dark"
@@ -162,7 +158,7 @@ function Projects() {
 				className="project_container"
 			>
 				<h4>To Do App</h4>
-				<img className="img_thumbnail" src="/To do.png" />
+				<img className="img_thumbnail" src="To do.png" />
 				<span>
 					<button
 						className="btn btn-dark"

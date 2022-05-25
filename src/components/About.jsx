@@ -8,7 +8,7 @@ function About() {
 
 
 const downloadFile = () => {
-    window.location.href = "/CV.pdf"
+    window.location.href = "CV.pdf"
   }
   return(
     <motion.div initial={{y:100,opacity:0}} animate={{y:0,opacity:1}} transition={{delay:0.5,type:"tween"}} id="home" className="about">
